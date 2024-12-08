@@ -51,10 +51,13 @@ endmodule
 ![ex2 (2)](https://github.com/user-attachments/assets/4f2afaf0-3f02-4789-bd7b-c3e3adb0b453)
 
 **Output:**
+***TRUTH TABLE***
 ![EXP2](https://github.com/user-attachments/assets/be4b5f5e-2f0f-4867-98c5-a9e3a625e385)
 
-**Timing Diagram**
-        
+***K-MAP***
+![K-map_4x4_empty-Photoroom](https://github.com/user-attachments/assets/4b68d8b2-e7ce-43b0-95c9-1e272a764410)
+![K-map_4x4_empty](https://github.com/user-attachments/assets/e1707c31-0e69-4732-bd98-199e6ad11e0f)
+
 **Result:**
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
