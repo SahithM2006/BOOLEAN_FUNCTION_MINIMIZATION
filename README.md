@@ -18,6 +18,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Logic Diagram**
 ![ex2](https://github.com/user-attachments/assets/1399b1d4-9c63-48f7-9f6e-f4d28935bcd8)
+![ex3 (2)(6) jpg](https://github.com/user-attachments/assets/2b14ba64-8ff6-437b-a4f9-a433c1cc7a3d)
 
 **Procedure**
 
@@ -39,16 +40,23 @@ Hardware – PCs, Cyclone II , USB flasher
 Developed by: SAHITH M
 RegisterNumber:24000251
 ```
-module function1(a,b,c,d,f1);
+module experiment2(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
-assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+endmodule
+
+module experiment2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y & z)|( w & y )|(x & y));
 endmodule
 ```
-![ex2](https://github.com/user-attachments/assets/d38c3f46-63a5-490f-9e27-8ffecd36c2ff)
+
 
 **RTL realization**
-![ex2 (2)](https://github.com/user-attachments/assets/4f2afaf0-3f02-4789-bd7b-c3e3adb0b453)
+![ex 2 resub](https://github.com/user-attachments/assets/55b22b7d-d665-410f-83ed-c872ed280bf3)
+![ex 2 resub(1)](https://github.com/user-attachments/assets/f1d5e78a-1758-45b3-938c-bcf388a6e3cc)
 
 **Output:**
 ***TRUTH TABLE***
